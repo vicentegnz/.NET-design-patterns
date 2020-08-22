@@ -21,9 +21,11 @@ Thank you. 👍
 
 # 🎩 Contributors
 
-I am alone in this adventure, but soon I know that more people will appear. 
 <table>
   <tr>
     <td align="center"><a href="https://vicentegnz.github.io/"><img src="https://avatars0.githubusercontent.com/u/26766270?s=460&u=28b8c7c07afadb5b6fddd9ae5c7e2740fafbb841&v=4" width="150px;" alt=""/><br /><sub><b>Vicente González</b</sub></a><br />
-    </td  </tr>
+     </td>
+          <td align="center"><a href="https://github.com/dimas-delafuente"><img src="https://avatars0.githubusercontent.com/u/22623667?s=460&u=e138deb23c85c9dc779b0bbaeb351095c3d46f62&v=4" width="150px;" alt=""/><br /><sub><b>Dimas de la Fuente</b</sub></a><br />
+        </td>
+   </tr>
 </table>

@@ -1,2 +1,29 @@
-# .NET-design-patterns
-Design patterns implemented in .NET Core
+# Design patterns implemented in .NET Core
+
+# 🔍 Introduction
+
+Design pattern is a general repeatable solution to a commonly occurring problem in software design.
+
+The benefits of use design patterns in our software systems are:
+
+* Design patterns can speed up the development process by providing tested, proven development paradigms.
+* Reusing the design patterns helps to prevent subtle issues that can cause major problems and it also improves code readability.
+* Allows developers to communicate well-known, well-understood names for software interactions, common design patterns can be improved over time, making them more robust than ad-hoc design.
+* In addition to that patterns allows developers to communicate well-known, well-understood names for software interactions, common design patterns can be improved over time, making them more robust than ad-hoc design.
+* A standard solution to a common programming problem enables large scale reuse of software.
+
+# 📚 Getting started
+
+# ✏️ How to contribute
+
+If you are willing to contribute to the project you can write to me on one of my social networks, so you can be one of us.
+Thank you. 👍
+
+# 🎩 Contributors
+
+I am alone in this adventure, but soon I know that more people will appear. 
+<table>
+  <tr>
+    <td align="center"><a href="https://vicentegnz.github.io/"><img src="https://avatars0.githubusercontent.com/u/26766270?s=460&u=28b8c7c07afadb5b6fddd9ae5c7e2740fafbb841&v=4" width="150px;" alt=""/><br /><sub><b>Vicente González</b</sub></a><br />
+    </td  </tr>
+</table>

@@ -24,6 +24,6 @@ Thank you. 👍
 I am alone in this adventure, but soon I know that more people will appear. 
 <table>
   <tr>
-    <td align="center"><a href="https://vicentegnz.github.io/"><img src="https://avatars0.githubusercontent.com/u/26766270?s=460&u=28b8c7c07afadb5b6fddd9ae5c7e2740fafbb841&v=4" width="150px;" alt=""/><br /><sub><b>Vicente González</b</sub></a><br />
+    <td align="center"><a href="https://vicentegnz.github.io/" target="_blank"><img src="https://avatars0.githubusercontent.com/u/26766270?s=460&u=28b8c7c07afadb5b6fddd9ae5c7e2740fafbb841&v=4" width="150px;" alt=""/><br /><sub><b>Vicente González</b</sub></a><br />
     </td  </tr>
 </table>

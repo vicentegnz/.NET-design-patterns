@@ -4,7 +4,7 @@
 
 Design pattern is a general repeatable solution to a commonly occurring problem in software design.
 
-The benefits of use design patterns in our software systems are:
+The benefits of using design patterns in our software systems are:
 
 * Can speed up the development process by providing tested, proven development paradigms.
 * Helps to prevent subtle issues that can cause major problems and it also improves code readability.

@@ -2,7 +2,7 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-namespace BuilderPattern
+namespace DesignPattern.Builder
 {
     /// <summary>
     /// The Builder interface specifies methods for creating the different parts
@@ -11,7 +11,7 @@ namespace BuilderPattern
     public interface IObjectBuilder
     {
         /// <summary>
-        ///  Build object part !.
+        ///  Build object part A.
         /// </summary>
         void BuildPartA();
 

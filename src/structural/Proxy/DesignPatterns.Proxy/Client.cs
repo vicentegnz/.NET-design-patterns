@@ -4,13 +4,25 @@
 
 namespace DesignPatterns.Proxy
 {
+    using System;
     using DesignPatterns.Proxy.Core;
 
     /// <summary>
     /// The client class.
     /// </summary>
-    internal class Client
+    public class Client
     {
+        private readonly IActualPrices actualPrices;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Client"/> class.
+        /// </summary>
+        /// <param name="actualPrices">The actual prices interface.</param>
+        public Client(IActualPrices actualPrices)
+        {
+            this.actualPrices = actualPrices ?? throw new ArgumentNullException(nameof(actualPrices));
+        }
+
         /// <summary>
         /// The client code is supposed to work with all objects (both subjects
         /// and proxies) via the Subject interface in order to support both real
@@ -18,13 +30,10 @@ namespace DesignPatterns.Proxy
         /// their real subjects directly. In this case, to implement the pattern
         /// more easily, you can extend your proxy from the real subject's class.
         /// </summary>
-        /// <param name="subject">The subject param.</param>
-        public void ClientCode(IActualPrices subject)
+        /// <returns>The price.</returns>
+        public string ClientCode()
         {
-            // ...
-            subject.RequestGoldPrice();
-
-            // ...
+           return this.actualPrices?.RequestGoldPrice();
         }
     }
 }

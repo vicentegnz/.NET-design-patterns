@@ -10,7 +10,7 @@ namespace DesignPatterns.Proxy.Core
     /// The Proxy interface identical to the RealActualPrices.
     /// </summary>
 #pragma warning disable CA1303 // Do not pass literals as localized parameters
-    internal class ProxyActualPrices : IActualPrices
+    public class ProxyActualPrices : IActualPrices
     {
         private readonly IActualPrices realActualPrices;
 
@@ -29,27 +29,21 @@ namespace DesignPatterns.Proxy.Core
         /// one of these things and then, depending on the result, pass the
         /// execution to the same method in a linked RealActualPrices object.
         /// </summary>
-        public void RequestGoldPrice()
+        /// <returns>The price.</returns>
+        public string RequestGoldPrice()
         {
             if (this.CheckAccess())
             {
                 this.realActualPrices.RequestGoldPrice();
-
-                this.LogAccess();
             }
+
+            return "RequestGoldPriceProxy";
         }
 
         private bool CheckAccess()
         {
             // Some real checks should go here.
-            Console.WriteLine("Proxy: Checking access prior to firing a real request.");
-
-            return true;
-        }
-
-        private void LogAccess()
-        {
-            Console.WriteLine("Proxy: Logging the time of request.");
+            return false;
         }
     }
 #pragma warning restore CA1303 // Do not pass literals as localized parameters

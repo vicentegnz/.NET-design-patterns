@@ -2,12 +2,12 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-namespace BuilderPattern
+namespace DesignPattern.Builder
 {
     /// <summary>
     /// The concrete object builder class.
     /// </summary>
-    internal class ConcreteObjectBuilder : IObjectBuilder
+    public class ConcreteObjectBuilder : IObjectBuilder
     {
         private Product product = new Product();
 

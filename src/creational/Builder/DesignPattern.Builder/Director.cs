@@ -2,12 +2,12 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-namespace BuilderPattern
+namespace DesignPattern.Builder
 {
     /// <summary>
     /// The director class.
     /// </summary>
-    internal class Director
+    public class Director
     {
         private IObjectBuilder builder;
 

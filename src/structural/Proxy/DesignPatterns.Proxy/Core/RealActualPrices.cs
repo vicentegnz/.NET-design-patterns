@@ -12,13 +12,13 @@ namespace DesignPatterns.Proxy.Core
     /// sensitive - e.g. correcting input data. A Proxy can solve these issues
     /// without any changes to the RealActualPrices's code.
     /// </summary>
-    internal class RealActualPrices : IActualPrices
+    public class RealActualPrices : IActualPrices
     {
         /// <inheritdoc/>
 #pragma warning disable CA1303 // Do not pass literals as localized parameters
-        public void RequestGoldPrice()
+        public string RequestGoldPrice()
         {
-            Console.WriteLine("RealGoldPrice: Handling Request.");
+            return "RequestGoldPriceReal";
         }
 #pragma warning restore CA1303 // Do not pass literals as localized parameters
     }

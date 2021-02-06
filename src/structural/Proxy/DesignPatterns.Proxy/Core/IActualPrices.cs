@@ -9,11 +9,12 @@ namespace DesignPatterns.Proxy.Core
     /// the ProxyActualPrices. As long as the client works with ActualPrices using this
     /// interface, you'll be able to pass it a proxy instead of a real gold price.
     /// </summary>
-    internal interface IActualPrices
+    public interface IActualPrices
     {
         /// <summary>
         ///  Request gold price method.
         /// </summary>
-        void RequestGoldPrice();
+        /// <returns>The price.</returns>
+        string RequestGoldPrice();
     }
 }

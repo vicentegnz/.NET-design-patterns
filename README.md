@@ -29,3 +29,7 @@ Thank you. 👍
         </td>
    </tr>
 </table>
+
+# 🎩 References
+
+Refactoring.Guru: https://refactoring.guru/es/design-patterns/catalog

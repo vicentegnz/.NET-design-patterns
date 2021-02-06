@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Builder", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Builder.Tests", "src\creational\Builder\DesignPattern.Builder.Tests\DesignPattern.Builder.Tests.csproj", "{11E672C5-3F73-4EE1-9309-F48407185C27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Proxy", "src\structural\Proxy\DesignPatterns.Proxy\DesignPattern.Proxy.csproj", "{C33AE7B0-9F67-4ACD-B01D-901210DCB3E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Proxy", "src\structural\Proxy\DesignPattern.Proxy\DesignPattern.Proxy.csproj", "{C33AE7B0-9F67-4ACD-B01D-901210DCB3E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Proxy.Tests", "src\structural\Proxy\DesignPattern.Proxy.Tests\DesignPattern.Proxy.Tests.csproj", "{A55D7AF9-E571-45C8-9FAA-340A9B27AC78}"
 EndProject

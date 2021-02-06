@@ -1,0 +1,17 @@
+<Project>
+
+  <Import Project="build/codeanalyzers.props" />
+
+  <PropertyGroup>
+    <Copyright>Copyright (c). All rights reserved.</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>$(MSBuildProjectName)</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Label="SDK Versions">
+    <NetCoreTargetVersion>netcoreapp3.1</NetCoreTargetVersion>
+  </PropertyGroup>
+
+</Project>

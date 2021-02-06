@@ -1,12 +1,23 @@
-﻿using DesignPatterns.Proxy;
-using DesignPatterns.Proxy.Core;
-using System;
+﻿// <copyright file="Program.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
 
 namespace DesingPatterns
 {
-    class Program
+    using System;
+    using DesignPatterns.Proxy;
+    using DesignPatterns.Proxy.Core;
+
+    /// <summary>
+    /// The program class.
+    /// </summary>
+    internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// The main method.
+        /// </summary>
+#pragma warning disable CA1303 // Do not pass literals as localized parameters
+        public static void Main()
         {
             Client client = new Client();
 
@@ -20,5 +31,6 @@ namespace DesingPatterns
             var proxy = new ProxyActualPrices(realGoldPrice);
             client.ClientCode(proxy);
         }
+#pragma warning restore CA1303 // Do not pass literals as localized parameters
     }
 }

@@ -4,8 +4,8 @@
 
 namespace DesignPattern.Proxy.Tests
 {
-    using DesignPatterns.Proxy;
-    using DesignPatterns.Proxy.Core;
+    using DesignPattern.Proxy;
+    using DesignPattern.Proxy.Core;
     using FluentAssertions;
     using Xunit;
 

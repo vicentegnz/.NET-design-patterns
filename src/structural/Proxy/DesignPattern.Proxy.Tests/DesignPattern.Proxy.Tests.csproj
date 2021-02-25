@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DesignPattern.Proxy\DesignPattern.Proxy.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Proxy\DesignPattern.Proxy.csproj" />
   </ItemGroup>
 
 </Project>

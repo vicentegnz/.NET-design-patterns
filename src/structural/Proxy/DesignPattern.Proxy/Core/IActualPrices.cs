@@ -2,7 +2,7 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-namespace DesignPattern.Proxy.Core
+namespace DesignPatterns.Proxy.Core
 {
     /// <summary>
     /// The ActualPrices interface declares common operations for both RealActualPrices and

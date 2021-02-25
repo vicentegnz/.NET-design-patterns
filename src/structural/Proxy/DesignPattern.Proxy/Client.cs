@@ -2,10 +2,10 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-namespace DesignPattern.Proxy
+namespace DesignPatterns.Proxy
 {
     using System;
-    using DesignPattern.Proxy.Core;
+    using DesignPatterns.Proxy.Core;
 
     /// <summary>
     /// The client class.

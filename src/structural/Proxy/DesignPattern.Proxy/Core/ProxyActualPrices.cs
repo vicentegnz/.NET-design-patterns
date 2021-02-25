@@ -2,7 +2,7 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
-namespace DesignPattern.Proxy.Core
+namespace DesignPatterns.Proxy.Core
 {
     using System;
 

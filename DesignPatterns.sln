@@ -23,11 +23,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{69D5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Builder", "src\creational\Builder\DesignPattern.Builder\DesignPattern.Builder.csproj", "{3EE0CDD3-0FA0-47B1-BD3A-8891E6605F17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Builder.Tests", "src\creational\Builder\DesignPattern.Builder.Tests\DesignPattern.Builder.Tests.csproj", "{11E672C5-3F73-4EE1-9309-F48407185C27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Builder.Tests", "src\creational\Builder\DesignPattern.Builder.Tests\DesignPattern.Builder.Tests.csproj", "{11E672C5-3F73-4EE1-9309-F48407185C27}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Proxy", "src\structural\Proxy\DesignPattern.Proxy\DesignPattern.Proxy.csproj", "{C33AE7B0-9F67-4ACD-B01D-901210DCB3E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Proxy.Tests", "src\structural\Proxy\DesignPattern.Proxy.Tests\DesignPattern.Proxy.Tests.csproj", "{A55D7AF9-E571-45C8-9FAA-340A9B27AC78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Proxy.Tests", "src\structural\Proxy\DesignPattern.Proxy.Tests\DesignPattern.Proxy.Tests.csproj", "{A55D7AF9-E571-45C8-9FAA-340A9B27AC78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{C3905B1F-E542-4464-8C0B-5259BAA890D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ChainOfResponsibility", "src\behavioral\ChainOfResponsibility\DesignPatterns.ChainOfResponsibility\DesignPattern.ChainOfResponsibility.csproj", "{B50F75F5-EB8E-4D83-B6CF-E0933CBF0442}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ChainOfResponsibility.Tests", "src\behavioral\ChainOfResponsibility\DesignPatterns.ChainOfResponsibility.Tests\DesignPattern.ChainOfResponsibility.Tests.csproj", "{6F7DAC62-7851-45DC-8E39-FF164F8CE520}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,14 @@ Global
 		{A55D7AF9-E571-45C8-9FAA-340A9B27AC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A55D7AF9-E571-45C8-9FAA-340A9B27AC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A55D7AF9-E571-45C8-9FAA-340A9B27AC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50F75F5-EB8E-4D83-B6CF-E0933CBF0442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50F75F5-EB8E-4D83-B6CF-E0933CBF0442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50F75F5-EB8E-4D83-B6CF-E0933CBF0442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50F75F5-EB8E-4D83-B6CF-E0933CBF0442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7DAC62-7851-45DC-8E39-FF164F8CE520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7DAC62-7851-45DC-8E39-FF164F8CE520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7DAC62-7851-45DC-8E39-FF164F8CE520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7DAC62-7851-45DC-8E39-FF164F8CE520}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +79,9 @@ Global
 		{11E672C5-3F73-4EE1-9309-F48407185C27} = {69D59235-49DA-41CF-A623-998E10CABB90}
 		{C33AE7B0-9F67-4ACD-B01D-901210DCB3E7} = {D20F4D0B-2FB4-4CA0-922C-8D057D0DCA27}
 		{A55D7AF9-E571-45C8-9FAA-340A9B27AC78} = {D20F4D0B-2FB4-4CA0-922C-8D057D0DCA27}
+		{C3905B1F-E542-4464-8C0B-5259BAA890D4} = {BE8659EC-06E4-436A-9579-C3A2D615D09B}
+		{B50F75F5-EB8E-4D83-B6CF-E0933CBF0442} = {C3905B1F-E542-4464-8C0B-5259BAA890D4}
+		{6F7DAC62-7851-45DC-8E39-FF164F8CE520} = {C3905B1F-E542-4464-8C0B-5259BAA890D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E9E102C-5291-463A-A287-DC51C2C834ED}

@@ -10,7 +10,7 @@ namespace DesignPattern.ChainOfResponsibility.Models
     /// <summary>
     /// Purchase Context.
     /// </summary>
-    public class PurchaseContext : IChainContext<PurchaseRequest>
+    public class PurchaseContext : IPurchaseContext<PurchaseRequest>
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="PurchaseContext"/> class.
@@ -19,22 +19,27 @@ namespace DesignPattern.ChainOfResponsibility.Models
         public PurchaseContext(PurchaseRequest purchaseRequest)
         {
             this.Request = purchaseRequest ?? throw new ArgumentNullException(nameof(purchaseRequest));
-            this.PurchaseAmount = this.Request.Amount;
         }
 
         /// <summary>
-        /// Gets context's request.
+        /// Gets purchase context's request.
         /// </summary>
         public PurchaseRequest Request { get; }
 
         /// <summary>
-        /// Gets or sets the current purchase amount.
+        /// Gets purchase context's request.
         /// </summary>
-        public decimal PurchaseAmount { get; set; }
+        public decimal Discount { get; private set; }
 
-        /// <summary>
-        /// Gets or sets a value indicating whether if the purchase has some discount applied.
-        /// </summary>
-        public bool HasDiscountApplied { get; set; }
+        /// <inheritdoc/>
+        public void AddDiscount(decimal discount)
+        {
+            if (discount <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(discount));
+            }
+
+            this.Discount += discount;
+        }
     }
 }

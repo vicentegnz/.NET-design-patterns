@@ -12,7 +12,7 @@ namespace DesignPattern.ChainOfResponsibility.Models
         /// <summary>
         /// Gets or sets purchase amount.
         /// </summary>
-        public int Amount { get; set; }
+        public decimal Amount { get; set; }
 
         /// <summary>
         /// Gets or sets purchase buyer Age.

@@ -18,7 +18,7 @@ namespace DesignPattern.Proxy.Tests
         /// Proxy pattern tests.
         /// </summary>
         [Fact]
-        public void Proxy_Pattern_Ok()
+        public void ProxyPatternOk()
         {
             // Client: Executing the client code with a real gold price
             IActualPrices realGoldPrice = new RealActualPrices();

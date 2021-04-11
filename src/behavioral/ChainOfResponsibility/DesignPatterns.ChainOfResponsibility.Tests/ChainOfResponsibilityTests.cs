@@ -4,6 +4,7 @@
 
 namespace DesignPattern.ChainOfResponsibility.Tests
 {
+    using DesignPattern.ChainOfResponsibility;
     using FluentAssertions;
     using Xunit;
 
@@ -16,9 +17,9 @@ namespace DesignPattern.ChainOfResponsibility.Tests
         /// Chain Of Responsibility pattern test.
         /// </summary>
         [Fact]
-        public void ChainOfResponsibility_Pattern_OK()
+        public void ChainOfResponsibilityPatternOK()
         {
-            // TODO
+            Client clientClass = new Client();
         }
     }
 }

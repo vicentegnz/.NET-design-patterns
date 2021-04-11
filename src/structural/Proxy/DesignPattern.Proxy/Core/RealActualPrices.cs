@@ -4,8 +4,6 @@
 
 namespace DesignPattern.Proxy.Core
 {
-    using System;
-
     /// <summary>
     /// The RealActualPrices contains some core business logic. Usually, RealActualPrices
     /// are capable of doing some useful work which may also be very slow or

@@ -16,7 +16,7 @@ namespace DesignPattern.Builder.Tests
         /// Builder pattern test.
         /// </summary>
         [Fact]
-        public void Builder_Pattern_Ok()
+        public void BuilderPatternOk()
         {
             // The client code creates a builder object, passes it to the
             // director and then initiates the construction process. The end
